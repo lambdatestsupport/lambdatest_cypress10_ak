@@ -1,5 +1,6 @@
 tasks:
-  - init: npm install
-  - name: Install LambdaTest Cypress CLI
-    init: npm i -g lambdatest-cypress-cli
-  - init: npx lambdatest-cypress run
+  - init: |
+      npm install
+    command: npm i
+  - init: 
+    command: lambdatest-cypress run
