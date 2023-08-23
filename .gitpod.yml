@@ -1,6 +1,6 @@
+---
 tasks:
-  - init: |
-      npm install
+  - init: npm install
     command: npm i
-  - init: 
+  - init: run
     command: lambdatest-cypress run
