@@ -1,6 +1,4 @@
 ---
 tasks:
   - init: npm install
-    command: npm i
-  - init: run
-    command: lambdatest-cypress run
+    command: npx lambdatest-cypress run
